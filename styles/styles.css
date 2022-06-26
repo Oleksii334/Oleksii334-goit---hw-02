@@ -1,0 +1,174 @@
+
+:root {
+--primari-color: #2196F3 ;
+--secondari-color:#2F303A ;
+--accent-color:#F5F4FA ;
+--common-white: #E5E5E5 ;
+--main-font:  'Raleway', sans-serif;
+--main-fonts: 'Roboto', sans-serif;
+--title-size: 44px;
+--title1-size: 36px;
+--logo-size: 26px;
+--col-size: 18px;
+--button-size: 16px;
+--navigation-size: 14px;
+
+}
+.logo{
+    font-family: var(--font-family); 
+    font-size: var(--logo-size);
+    color: #FFFFFF;
+    margin-right: 93px;
+
+}
+.logo-s{
+      color: #2196F3;
+     
+}
+.wraper {background-color: #FFFFFF ;
+
+}
+
+.list {
+    list-style: none;
+    padding: 0%;
+}
+
+.header {
+    width: 1600px;
+    padding: 32px 215px ;
+    display: flex;
+    align-items: center;
+}
+.base-header {
+    color: #212121;
+ }
+
+.base-header:hover,
+.base-header:focus {
+    color:#2196F3 ;
+}
+
+.base-headers {
+    color: #757575;
+}
+
+.navigation-link {
+    margin-right: 50px;
+    display: flex;
+    
+
+}
+.navigation-item {
+    margin-right:50px ;
+    display: flex;
+   
+        
+}
+
+
+.navigation {
+    font-family: var(--main-fonts);
+    font-size: var(--navigation-size);
+    margin-right: 330px;
+    }
+.hero {
+background-color: #2F303A;
+text-decoration: none;
+color: #FFFFFF;
+padding: 200x 452px 280px;
+align-items: center;
+
+}
+
+
+
+
+.hero-h{
+
+}
+
+.hero-btn {
+    background-color: #2196F3;
+    border: none;
+    padding: 10px 32px;
+    color: #FFFFFF;
+  
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: aqua;
+}
+.section-1{
+
+}
+
+.h3 {
+font-size: var(--navigation-size);
+color: #212121;
+}
+.p{
+font-size: var(--navigation-size);
+color: #757575;
+}
+.h2{
+    font-size: var(--title1-size); 
+    color: #212121;
+}
+
+.p2{
+    font-size: var(--button-size);
+    color: #757575;
+}
+.comand{
+    font-size: var(--button-size);
+    color:#212121 ;
+}
+.foter{
+    background-color: #2F303A;
+      width: 1600px;
+        padding: 140px 1154px 90px 215px;
+        color: #FFFFFF;
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+.addres:hover {
+    color: #FFFFFF;
+
+}
+/*Портфоліо*/
+.list-btn:hover,
+.list-btn:focus {
+    background-color: #2196F3;
+    color: #212121;
+
+}
+
+.projekts{
+    color: #212121;
+font-size: var(--col-size)
+
+}
+
+.projekts-p
+{color: #757575;
+font-size: var(--button-size)
+}
+
+
