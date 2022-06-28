@@ -27,10 +27,11 @@
   
   
 }
+
+
 .logo-s {
   color: var(--primari-color);
   text-decoration: none;
-  
 }
 .logo-studio {
   color: var(--logo-color);
@@ -50,13 +51,20 @@
   font-family: inherit;
   
 }
+ body {
+   font-size: 14px;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.03em;
+   color: var(--header-color);
+   background-color: var(--accent-color);
+ }
 
-body {
+/*body {
   background: var(--accent-color);
   color: var(--header-color);
   font-family: "Roboto", sans-serif;
   
-}
+}*/
 
 .header {
   background-color: var(--background-color);
@@ -73,7 +81,8 @@ body {
 
 .base-header:hover,
 .base-header:focus {
-  color: var(--primari-color);
+  color  :var(--primari-color)
+  
 }
 
 .navigation-link {
@@ -185,6 +194,7 @@ body {
   font-weight: 400;
   line-height: 1.71;
 }
+
 /*Портфоліо*/
 .list-btn:hover,
 .list-btn:focus {
@@ -213,11 +223,18 @@ body {
   font-weight: 700;
   line-height: 2;
   color: var(--header-color) ;
-    text-decoration: none;
+  text-decoration: none;
 }
-
+.wer{
+  text-decoration: none;
+}
 .addres-color {
   color: #ffffff;
-  opacity: 0.6;
+  opacity: 0.60;
   text-decoration: none;
+  
+}
+.addres-color:hover ,
+.addres-color:focus{
+color: var(--primari-color);
 }
