@@ -20,7 +20,7 @@
 .logo {
   font-size: var(--logo-size);
   color: var(--background-color);
-  margin-right: 93px;
+  margin-right: 90px;
   font-weight: 700;
   line-height: 1.38;
   text-decoration: none;
@@ -59,16 +59,11 @@
    background-color: var(--accent-color);
  }
 
-/*body {
-  background: var(--accent-color);
-  color: var(--header-color);
-  font-family: "Roboto", sans-serif;
-  
-}*/
 
 .header {
   background-color: var(--background-color);
   width: 1600px;
+  margin: 0 auto;
   padding: 32px 215px;
   display: flex;
   align-items: center;
@@ -76,7 +71,7 @@
 }
 .base-header {
   color: var(--header-color);
-  text-decoration: none;
+  text-decoration: none
 }
 
 .base-header:hover,
@@ -89,6 +84,7 @@
   margin-right: 50px;
   display: flex;
   line-height: 16px;
+  font-style: normal;
 
 }
 .navigation-item {
@@ -108,7 +104,10 @@
   font-family: var(--main-fonts);
   font-size: var(--navigation-size);
   margin-right: 330px;
+  
 }
+
+
 .hero {
   background-color: var(--foter-color);
   text-decoration: none;
@@ -193,6 +192,7 @@
   color: var(--background-color);
   font-weight: 400;
   line-height: 1.71;
+  font-style: normal;
 }
 
 /*Портфоліо*/
