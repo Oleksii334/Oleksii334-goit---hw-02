@@ -17,6 +17,7 @@
   --button-size: 16px;
   --navigation-size: 14px;
 }
+
 .logo {
   font-size: var(--logo-size);
   color: var(--background-color);
@@ -25,19 +26,20 @@
   line-height: 1.38;
   text-decoration: none;
   
-  
 }
 
 
 .logo-s {
   color: var(--primari-color);
-  text-decoration: none;
+  
 }
 .logo-studio {
   color: var(--logo-color);
-  text-decoration: none;
   
 
+}
+.projekts-dekor{
+text-decoration: none;
 }
 
 
@@ -49,6 +51,7 @@
   list-style: none;
   padding: 0%;
   font-family: inherit;
+
   
 }
  body {
@@ -56,7 +59,8 @@
    font-family: 'Roboto', sans-serif;
    letter-spacing: 0.03em;
    color: var(--header-color);
-   background-color: var(--accent-color);
+   background-color: var(--common-whiter);
+  
  }
 
 
@@ -68,14 +72,14 @@
   display: flex;
   align-items: center;
   
-}
+  }
+ 
+
 .base-header {
   color: var(--header-color);
-  text-decoration: none
+  text-decoration: none ;
 }
-.current:active{
-  color: var(--primari-color);
-}
+
 
 .base-header:hover,
 .base-header:focus {
@@ -88,8 +92,9 @@
   display: flex;
   line-height: 16px;
   font-style: normal;
-
 }
+
+
 .navigation-item {
   margin-right: 50px;
   display: flex;
@@ -121,6 +126,7 @@
 }
 
 .hero-h {
+  font-size:var(--title-size);
   line-height: 1.36;
   font-weight: 900;
   text-align: center;
@@ -138,6 +144,7 @@
 .hero-btn:focus {
   cursor: pointer;
   background-color: aqua;
+color: var(--logo-color) ;
 }
 
 .main-section-h {
@@ -145,12 +152,14 @@
   color: var(--header-color);
   font-weight: 700;
   line-height: 1.14;
+ 
 }
 .main-section-p {
   font-size: var(--navigation-size);
   color: var(--navigation-link-color);
   font-weight: 400;
   line-height: 1.71;
+
 }
 .section-job-h {
   font-size: var(--title1-size);
@@ -158,6 +167,10 @@
   font-weight: 700;
   line-height: 1.16;
   text-align: center;
+  
+}
+.section-font{
+  background-color: var(--common-white)  ;
 }
 
 .section-job-p {
@@ -165,12 +178,15 @@
   color: var(--navigation-link-color);
   font-weight: 400;
   line-height: 1.18;
+
+  
 }
 .comand {
   font-size: var(--button-size);
   color: var(--header-color);
   font-weight: 500;
   line-height: 1.18;
+ 
 }
 .foter {
   background-color: var(--foter-color);
@@ -204,6 +220,7 @@
 .list-btn:focus {
   background-color: var(--primari-color);
   color: var(--header-color);
+  color: var(--background-color);
 }
 .list-btn {
   font-weight: 500;
@@ -213,6 +230,7 @@
 .projekts {
   color: var(--header-color);
   font-size: var(--col-size);
+  text-decoration: none;
 }
 
 .projekts-p {
@@ -220,7 +238,7 @@
   font-size: var(--button-size);
   font-weight: 400;
   line-height: 1.87;
-    text-decoration: none;
+  text-decoration: none;
   
 }
 .projekts-h {
@@ -228,10 +246,9 @@
   line-height: 2;
   color: var(--header-color) ;
   text-decoration: none;
+ 
 }
-.wer{
-  text-decoration: none;
-}
+
 .addres-color {
   color: #ffffff;
   opacity: 0.60;
