@@ -73,6 +73,9 @@
   color: var(--header-color);
   text-decoration: none
 }
+.current:active{
+  color: var(--primari-color);
+}
 
 .base-header:hover,
 .base-header:focus {
@@ -95,6 +98,7 @@
   line-height: 1.14;
   color: var(--navigation-link-color);
   text-decoration: none;
+  
 }
 .navigation-item:hover {
   color: var(--primari-color);
