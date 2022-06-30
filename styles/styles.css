@@ -25,6 +25,7 @@
   font-weight: 700;
   line-height: 1.38;
   text-decoration: none;
+  font-family:'Raleway';
   
 }
 
@@ -78,6 +79,12 @@ text-decoration: none;
 .base-header {
   color: var(--header-color);
   text-decoration: none ;
+ 
+}
+
+.current {
+color: var(--primari-color);
+text-decoration: none;
 }
 
 
@@ -123,6 +130,7 @@ text-decoration: none;
   color: var(--background-color);
   padding: 200px 452px 280px;
   align-items: center;
+  text-transform: uppercase ;
 }
 
 .hero-h {
@@ -139,6 +147,7 @@ text-decoration: none;
   color: var(--background-color);
   font-weight: 700;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .hero-btn:focus {
@@ -152,6 +161,7 @@ color: var(--logo-color) ;
   color: var(--header-color);
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
  
 }
 .main-section-p {
