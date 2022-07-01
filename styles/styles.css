@@ -235,6 +235,8 @@ color: var(--logo-color) ;
 .list-btn {
   font-weight: 500;
   line-height: 1.62;
+  cursor: pointer;
+   
 }
 
 .projekts {
